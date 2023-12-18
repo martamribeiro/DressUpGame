@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"DressUpGame_atlas_1", frames: [[812,802,309,72],[812,876,309,72],[501,910,309,72],[1123,941,309,72],[1434,941,309,72],[501,802,309,106],[0,802,499,147],[1282,0,588,939],[0,0,1280,800]]},
-		{name:"DressUpGame_atlas_2", frames: [[0,0,1010,1250]]},
+		{name:"DressUpGame_atlas_2", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_3", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_4", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_5", frames: [[0,0,948,1920],[950,0,948,1920]]},
@@ -12,8 +12,10 @@ lib.ssMetadata = [
 		{name:"DressUpGame_atlas_7", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_8", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_9", frames: [[0,0,948,1920],[950,0,948,1920]]},
-		{name:"DressUpGame_atlas_10", frames: [[0,0,948,1920],[950,0,948,1920]]},
-		{name:"DressUpGame_atlas_11", frames: [[0,0,948,1920],[950,0,948,1920]]}
+		{name:"DressUpGame_atlas_10", frames: [[0,0,1010,1250]]},
+		{name:"DressUpGame_atlas_11", frames: [[0,0,948,1920],[950,0,948,1920]]},
+		{name:"DressUpGame_atlas_12", frames: [[0,0,948,1920],[950,0,948,1920]]},
+		{name:"DressUpGame_atlas_13", frames: [[0,0,948,1920],[950,0,948,1920]]}
 ];
 
 
@@ -73,7 +75,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["DressUpGame_atlas_2"]);
+	this.initialize(ss["DressUpGame_atlas_10"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -94,84 +96,112 @@ lib.ssMetadata = [
 
 
 (lib.base1 = function() {
-	this.initialize(ss["DressUpGame_atlas_11"]);
+	this.initialize(ss["DressUpGame_atlas_13"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.base2 = function() {
-	this.initialize(ss["DressUpGame_atlas_11"]);
+	this.initialize(ss["DressUpGame_atlas_13"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.base3 = function() {
-	this.initialize(ss["DressUpGame_atlas_10"]);
+	this.initialize(ss["DressUpGame_atlas_12"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.base4 = function() {
-	this.initialize(ss["DressUpGame_atlas_10"]);
+	this.initialize(ss["DressUpGame_atlas_12"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.base5 = function() {
-	this.initialize(ss["DressUpGame_atlas_9"]);
+	this.initialize(ss["DressUpGame_atlas_11"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyebrows1_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_9"]);
+	this.initialize(ss["DressUpGame_atlas_11"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyebrows2_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_8"]);
+	this.initialize(ss["DressUpGame_atlas_9"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyebrows3_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_8"]);
+	this.initialize(ss["DressUpGame_atlas_9"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyebrows4_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_7"]);
+	this.initialize(ss["DressUpGame_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyebrows5_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_7"]);
+	this.initialize(ss["DressUpGame_atlas_8"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyes1_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_6"]);
+	this.initialize(ss["DressUpGame_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hair1_1 = function() {
+	this.initialize(ss["DressUpGame_atlas_7"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hair2_1 = function() {
 	this.initialize(ss["DressUpGame_atlas_6"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hair3_1 = function() {
+	this.initialize(ss["DressUpGame_atlas_6"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hair4_1 = function() {
+	this.initialize(ss["DressUpGame_atlas_5"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hair5_1 = function() {
+	this.initialize(ss["DressUpGame_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -192,42 +222,42 @@ lib.ssMetadata = [
 
 
 (lib.mouth1_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_5"]);
+	this.initialize(ss["DressUpGame_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mouth2_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_5"]);
+	this.initialize(ss["DressUpGame_atlas_4"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mouth3_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_4"]);
+	this.initialize(ss["DressUpGame_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mouth4_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_4"]);
+	this.initialize(ss["DressUpGame_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mouth5_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_3"]);
+	this.initialize(ss["DressUpGame_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.top5_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_3"]);
+	this.initialize(ss["DressUpGame_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -398,6 +428,141 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,966.3,1643.8);
 
 
+(lib.Hair5_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Hair5_1
+	this.instance = new lib.hair5_1();
+	this.instance.setTransform(167.6,0,0.8425,0.8425);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(4,1,1).p("AUxqQIhACxIi1AAICDBtIgwDPICjiCICXCCIgjjNICAhxIi1AAgA0wCkIg/CyIi2AAICEBsIgwDPICjiBICWCBIgjjMICAhyIi1AAg");
+	this.shape.setTransform(159.35,123.675);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,966.3,1617.6);
+
+
+(lib.Hair4_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Hair4_1
+	this.instance = new lib.hair4_1();
+	this.instance.setTransform(167.6,0,0.8425,0.8425);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(4,1,1).p("APkqSIg/CyIi2AAICEBsIgxDQICkiCICWCCIgjjNICAhyIi1AAgAvjClIg/CyIi2AAICEBsIgxDQICkiCICWCCIgjjNICAhxIi1AAg");
+	this.shape.setTransform(126.075,123.95);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,966.3,1617.6);
+
+
+(lib.Hair3_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Hair3_1
+	this.instance = new lib.hair3_1();
+	this.instance.setTransform(167.6,0,0.8425,0.8425);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(4,1,1).p("AKYqQIg/CxIi2AAICEBtIgxDPICkiBICWCBIgjjMICAhyIi1AAgAqXCkIg/CxIi2AAICEBtIgxDPICkiBICXCBIgjjMIB/hyIi1AAg");
+	this.shape.setTransform(92.85,123.8);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,966.3,1617.6);
+
+
+(lib.Hair2_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Hair2_1
+	this.instance = new lib.hair2_1();
+	this.instance.setTransform(167.6,0,0.8425,0.8425);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(4,1,1).p("AFMqRIg/CyIi1AAICDBsIgxDPICkiBICXCBIgjjMIB/hyIi1AAgAlMClIg/CxIi1AAICDBtIgwDPICjiCICXCCIgjjNIB/hxIi0AAg");
+	this.shape.setTransform(59.7,123.875);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,966.3,1617.6);
+
+
+(lib.Hair1_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Hair1_1
+	this.instance = new lib.hair1_1();
+	this.instance.setTransform(167.8,0,0.8425,0.8425);
+
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(4,1,1).p("AABqRIg+CyIi2AAICEBsIgxDPICjiBICWCBIgjjMICAhyIi1AAgAAAClIg/CxIi2AAICEBtIgxDPICjiCICWCCIgjjNICAhxIi1AAg");
+	this.shape.setTransform(26.575,123.775);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,966.5,1617.6);
+
+
 (lib.Button_Skin1 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -526,6 +691,131 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,51.4,50.3);
 
 
+(lib.Button_Hair1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {"Button_Skin5":0};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Button_Hair1
+	this.Button_Skin5 = new lib.Button_Skin5();
+	this.Button_Skin5.name = "Button_Skin5";
+	this.Button_Skin5.setTransform(25.7,25.2,1,1,0,0,0,25.7,25.2);
+	new cjs.ButtonHelper(this.Button_Skin5, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.Button_Skin5).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,51.4,50.3);
+
+
+(lib.Button_Hair2 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {Button_Hair1:0};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Button_Hair2
+	this.Button_Hair = new lib.Button_Hair1();
+	this.Button_Hair.name = "Button_Hair";
+	this.Button_Hair.setTransform(25.7,25.2,1,1,0,0,0,25.7,25.2);
+	new cjs.ButtonHelper(this.Button_Hair, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.Button_Hair).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,51.4,50.3);
+
+
+(lib.Button_Hair3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {Button_Hair2:0};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Button_Hair3
+	this.Button_Hair2 = new lib.Button_Hair2();
+	this.Button_Hair2.name = "Button_Hair2";
+	this.Button_Hair2.setTransform(25.7,25.2,1,1,0,0,0,25.7,25.2);
+	new cjs.ButtonHelper(this.Button_Hair2, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.Button_Hair2).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,51.4,50.3);
+
+
+(lib.Button_Hair4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {Button_Hair3:0};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Button_Hair4
+	this.Button_Hair3 = new lib.Button_Hair3();
+	this.Button_Hair3.name = "Button_Hair3";
+	this.Button_Hair3.setTransform(25.7,25.2,1,1,0,0,0,25.7,25.2);
+	new cjs.ButtonHelper(this.Button_Hair3, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.Button_Hair3).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,51.4,50.3);
+
+
+(lib.Button_Hair5 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {Button_Hair4:0};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Button_Hair5
+	this.Button_Hair4 = new lib.Button_Hair4();
+	this.Button_Hair4.name = "Button_Hair4";
+	this.Button_Hair4.setTransform(25.7,25.2,1,1,0,0,0,25.7,25.2);
+	new cjs.ButtonHelper(this.Button_Hair4, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.Button_Hair4).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,51.4,50.3);
+
+
 // stage content:
 (lib.DressUpGame = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
@@ -533,7 +823,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {Skin5:0,Skin4:0,Skin3:0,Skin2:0,Skin1:0,"Button_Skin5":0,"Button_Skin4":0,"Button_Skin3":0,"Button_Skin2":0,Button_Skin1:0};
+	props.labels = {Button_Hair5:0,"Button_Hair4":0,"Button_Hair3":0,"Button_Hair2":0,"Button_Hair1":0,Hair5_1:0,Hair4_1:0,Hair3_1:0,Hair2_1:0,Hair1_1:0,Skin5:0,Skin4:0,Skin3:0,Skin2:0,Skin1:0,"Button_Skin5":0,"Button_Skin4":0,"Button_Skin3":0,"Button_Skin2":0,Button_Skin1:0};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -556,15 +846,34 @@ if (reversed == null) { reversed = false; }
 		    }
 		}
 		
+		function hideAllHairLayers() {
+		    for (let i = 1; i <= 5; i++) {
+		        root["Hair" + i + "_1"].visible = false;
+		    }
+		}
+		
 		hideAllSkinLayers();
-		root.Skin1.visible = true;
+		hideAllHairLayers();
+		
+		root.Skin1.visible = true; // Initially show Skin1
+		root.Hair1_1.visible = true;
 		
 		for (let i = 1; i <= 5; i++) {
-		    let button = root["Button_Skin" + i];
-		    button.addEventListener("click", function () {
-		        console.log("Button clicked:", i);
+		    let skinButton = root["Button_Skin" + i];
+		    let hairButton = root["Button_Hair" + i];
+		
+		    skinButton.addEventListener("click", function () {
+		        console.log("Skin Button clicked: skin", i);
+		
 		        hideAllSkinLayers();
 		        root["Skin" + i].visible = true;
+		    });
+		
+		    hairButton.addEventListener("click", function () {
+		        console.log("Hair Button clicked: hair", i);
+		
+		        hideAllHairLayers();
+		        root["Hair" + i + "_1"].visible = true;
 		    });
 		}
 	}
@@ -572,31 +881,96 @@ if (reversed == null) { reversed = false; }
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
+	// Button_Hair5
+	this.Button_Hair5 = new lib.Button_Hair5();
+	this.Button_Hair5.name = "Button_Hair5";
+	this.Button_Hair5.setTransform(477.2,208.2,1,1,0,0,0,25.7,25.2);
+	new cjs.ButtonHelper(this.Button_Hair5, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.Button_Hair5).wait(1));
+
+	// Button_Hair4
+	this.Button_Hair4 = new lib.Button_Hair4();
+	this.Button_Hair4.name = "Button_Hair4";
+	this.Button_Hair4.setTransform(411.3,208.2,1,1,0,0,0,25.7,25.2);
+	new cjs.ButtonHelper(this.Button_Hair4, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.Button_Hair4).wait(1));
+
+	// Button_Hair3
+	this.Button_Hair3 = new lib.Button_Hair3();
+	this.Button_Hair3.name = "Button_Hair3";
+	this.Button_Hair3.setTransform(344.6,208.2,1,1,0,0,0,25.7,25.2);
+	new cjs.ButtonHelper(this.Button_Hair3, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.Button_Hair3).wait(1));
+
+	// Button_Hair2
+	this.Button_Hair2 = new lib.Button_Hair2();
+	this.Button_Hair2.name = "Button_Hair2";
+	this.Button_Hair2.setTransform(278.7,208.2,1,1,0,0,0,25.7,25.2);
+	new cjs.ButtonHelper(this.Button_Hair2, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.Button_Hair2).wait(1));
+
+	// Button_Hair1
+	this.Button_Hair1 = new lib.Button_Hair1();
+	this.Button_Hair1.name = "Button_Hair1";
+	this.Button_Hair1.setTransform(212.3,208.2,1,1,0,0,0,25.7,25.2);
+	new cjs.ButtonHelper(this.Button_Hair1, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.Button_Hair1).wait(1));
+
+	// Hair5_1
+	this.Hair5_1 = new lib.Hair5_1("synched",0);
+	this.Hair5_1.name = "Hair5_1";
+	this.Hair5_1.setTransform(668.6,933.8,1,1,0,0,0,483.2,808.8);
+
+	this.timeline.addTween(cjs.Tween.get(this.Hair5_1).wait(1));
+
+	// Hair4_1
+	this.Hair4_1 = new lib.Hair4_1("synched",0);
+	this.Hair4_1.name = "Hair4_1";
+	this.Hair4_1.setTransform(668.6,933.8,1,1,0,0,0,483.2,808.8);
+
+	this.timeline.addTween(cjs.Tween.get(this.Hair4_1).wait(1));
+
+	// Hair3_1
+	this.Hair3_1 = new lib.Hair3_1("synched",0);
+	this.Hair3_1.name = "Hair3_1";
+	this.Hair3_1.setTransform(668.6,933.8,1,1,0,0,0,483.2,808.8);
+
+	this.timeline.addTween(cjs.Tween.get(this.Hair3_1).wait(1));
+
+	// Hair2_1
+	this.Hair2_1 = new lib.Hair2_1("synched",0);
+	this.Hair2_1.name = "Hair2_1";
+	this.Hair2_1.setTransform(668.6,933.8,1,1,0,0,0,483.2,808.8);
+
+	this.timeline.addTween(cjs.Tween.get(this.Hair2_1).wait(1));
+
 	// Hair1_1
-	this.instance = new lib.hair1_1();
+	this.Hair1_1 = new lib.Hair1_1("synched",0);
+	this.Hair1_1.name = "Hair1_1";
+	this.Hair1_1.setTransform(668.4,933.8,1,1,0,0,0,483.2,808.8);
+
+	this.timeline.addTween(cjs.Tween.get(this.Hair1_1).wait(1));
+
+	// Eyes1_1
+	this.instance = new lib.eyes1_1();
 	this.instance.setTransform(353,125,0.8425,0.8425);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FFFFFF").ss(4,1,1).p("AABqRIg+CyIi2AAICEBsIgxDPICjiBICWCBIgjjMICAhyIi1AAgAAAClIg/CxIi2AAICEBtIgxDPICjiCICWCCIgjjNICAhxIi1AAg");
-	this.shape.setTransform(211.775,248.775);
+	this.shape.graphics.f().s("#FFFFFF").ss(4,1,1).p("AAAqPIg+CyIi2AAICEBsIgxDPICjiCICWCCIgjjNICAhxIi1AAgAAACjIg+CyIi2AAICEBsIgxDPICjiBICWCBIgjjMICAhyIi1AAg");
+	this.shape.setTransform(211.875,551.05);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape},{t:this.instance}]}).wait(1));
 
-	// Eyes1_1
-	this.instance_1 = new lib.eyes1_1();
+	// Top
+	this.instance_1 = new lib.top5_1();
 	this.instance_1.setTransform(353,125,0.8425,0.8425);
 
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f().s("#FFFFFF").ss(4,1,1).p("AAAqPIg+CyIi2AAICEBsIgxDPICjiCICWCCIgjjNICAhxIi1AAgAAACjIg+CyIi2AAICEBsIgxDPICjiBICWCBIgjjMICAhyIi1AAg");
-	this.shape_1.setTransform(211.875,551.05);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.instance_1}]}).wait(1));
-
-	// Top
-	this.instance_2 = new lib.top5_1();
-	this.instance_2.setTransform(353,125,0.8425,0.8425);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
 
 	// Skin5
 	this.Skin5 = new lib.Skin5("synched",0);
@@ -634,37 +1008,37 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Skin1).wait(1));
 
 	// NextButton
-	this.instance_3 = new lib.CachedBmp_2();
-	this.instance_3.setTransform(778.45,40.15,0.5,0.5);
+	this.instance_2 = new lib.CachedBmp_2();
+	this.instance_2.setTransform(778.45,40.15,0.5,0.5);
 
-	this.instance_4 = new lib.CachedBmp_1();
-	this.instance_4.setTransform(734.9,27.85,0.5,0.5);
+	this.instance_3 = new lib.CachedBmp_1();
+	this.instance_3.setTransform(734.9,27.85,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).wait(1));
 
 	// MainUI
-	this.instance_5 = new lib.CachedBmp_8();
-	this.instance_5.setTransform(12.15,574.9,0.5,0.5);
+	this.instance_4 = new lib.CachedBmp_8();
+	this.instance_4.setTransform(12.15,574.9,0.5,0.5);
 
-	this.instance_6 = new lib.CachedBmp_7();
-	this.instance_6.setTransform(12.15,494.1,0.5,0.5);
+	this.instance_5 = new lib.CachedBmp_7();
+	this.instance_5.setTransform(12.15,494.1,0.5,0.5);
 
-	this.instance_7 = new lib.CachedBmp_6();
-	this.instance_7.setTransform(12.15,271.25,0.5,0.5);
+	this.instance_6 = new lib.CachedBmp_6();
+	this.instance_6.setTransform(12.15,271.25,0.5,0.5);
 
-	this.instance_8 = new lib.CachedBmp_5();
-	this.instance_8.setTransform(12.15,188.85,0.5,0.5);
+	this.instance_7 = new lib.CachedBmp_5();
+	this.instance_7.setTransform(12.15,188.85,0.5,0.5);
 
-	this.instance_9 = new lib.CachedBmp_4();
-	this.instance_9.setTransform(12.15,107.9,0.5,0.5);
+	this.instance_8 = new lib.CachedBmp_4();
+	this.instance_8.setTransform(12.15,107.9,0.5,0.5);
 
-	this.instance_10 = new lib.idleCópia();
-	this.instance_10.setTransform(147,72,0.6844,0.6844);
+	this.instance_9 = new lib.idleCópia();
+	this.instance_9.setTransform(147,72,0.6844,0.6844);
 
-	this.instance_11 = new lib.CachedBmp_3();
-	this.instance_11.setTransform(18.55,76.95,0.5,0.5);
+	this.instance_10 = new lib.CachedBmp_3();
+	this.instance_10.setTransform(18.55,76.95,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4}]}).wait(1));
 
 	// Button_Skin5
 	this.Button_Skin5 = new lib.Button_Skin5();
@@ -707,9 +1081,9 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Button_Skin1).wait(1));
 
 	// Background
-	this.instance_12 = new lib.ModernDormroom1();
+	this.instance_11 = new lib.ModernDormroom1();
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(1));
 
 	this._renderFirstFrame();
 
@@ -724,17 +1098,19 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DressUpGame_atlas_1.png?1702862901419", id:"DressUpGame_atlas_1"},
-		{src:"images/DressUpGame_atlas_2.png?1702862901419", id:"DressUpGame_atlas_2"},
-		{src:"images/DressUpGame_atlas_3.png?1702862901419", id:"DressUpGame_atlas_3"},
-		{src:"images/DressUpGame_atlas_4.png?1702862901419", id:"DressUpGame_atlas_4"},
-		{src:"images/DressUpGame_atlas_5.png?1702862901419", id:"DressUpGame_atlas_5"},
-		{src:"images/DressUpGame_atlas_6.png?1702862901419", id:"DressUpGame_atlas_6"},
-		{src:"images/DressUpGame_atlas_7.png?1702862901419", id:"DressUpGame_atlas_7"},
-		{src:"images/DressUpGame_atlas_8.png?1702862901419", id:"DressUpGame_atlas_8"},
-		{src:"images/DressUpGame_atlas_9.png?1702862901420", id:"DressUpGame_atlas_9"},
-		{src:"images/DressUpGame_atlas_10.png?1702862901420", id:"DressUpGame_atlas_10"},
-		{src:"images/DressUpGame_atlas_11.png?1702862901420", id:"DressUpGame_atlas_11"}
+		{src:"images/DressUpGame_atlas_1.png?1702865216354", id:"DressUpGame_atlas_1"},
+		{src:"images/DressUpGame_atlas_2.png?1702865216354", id:"DressUpGame_atlas_2"},
+		{src:"images/DressUpGame_atlas_3.png?1702865216354", id:"DressUpGame_atlas_3"},
+		{src:"images/DressUpGame_atlas_4.png?1702865216354", id:"DressUpGame_atlas_4"},
+		{src:"images/DressUpGame_atlas_5.png?1702865216354", id:"DressUpGame_atlas_5"},
+		{src:"images/DressUpGame_atlas_6.png?1702865216354", id:"DressUpGame_atlas_6"},
+		{src:"images/DressUpGame_atlas_7.png?1702865216354", id:"DressUpGame_atlas_7"},
+		{src:"images/DressUpGame_atlas_8.png?1702865216354", id:"DressUpGame_atlas_8"},
+		{src:"images/DressUpGame_atlas_9.png?1702865216354", id:"DressUpGame_atlas_9"},
+		{src:"images/DressUpGame_atlas_10.png?1702865216354", id:"DressUpGame_atlas_10"},
+		{src:"images/DressUpGame_atlas_11.png?1702865216354", id:"DressUpGame_atlas_11"},
+		{src:"images/DressUpGame_atlas_12.png?1702865216355", id:"DressUpGame_atlas_12"},
+		{src:"images/DressUpGame_atlas_13.png?1702865216355", id:"DressUpGame_atlas_13"}
 	],
 	preloads: []
 };
