@@ -1193,6 +1193,14 @@ if (reversed == null) { reversed = false; }
 		root.Skin1.visible = true; // Initially show Skin1
 		root.Hair1_0.visible = true;
 		
+		for (let i = 1; i <= 5; i++) {
+			let hairSymbol = root["Hair" + i + "_0"];
+			let intensity = 1;
+			let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 255, 251, 240, 0);
+			hairSymbol.filters = [colorTransform];
+			hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+		}
+		
 		let selectedHairStyle = 1;
 		let selectedHairColor = 1;
 		
@@ -1222,85 +1230,129 @@ if (reversed == null) { reversed = false; }
 		    hairColorButton.addEventListener("click", function () {
 		        console.log("Hair Color Button clicked: hair color", i);
 		
-		        hideAllHairLayers();
+		        //hideAllHairLayers();
 		        selectedHairColor = i;
-				let hairSymbol = root["Hair" + selectedHairStyle + "_0"];
 				let intensity = 1;
 				if(selectedHairColor == 1){
 					//blonde tone 1
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 255, 251, 240, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 255, 251, 240, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 2){
 					//blonde tone 2
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 240, 231, 206, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 240, 231, 206, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 3){
 					//blonde tone 3
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 227, 210, 163, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 227, 210, 163, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 4){
 					//brown tone 1
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 176, 159, 144, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 176, 159, 144, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 5){
 					//brown tone 2
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 135, 115, 99, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 135, 115, 99, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 6){
 					//brown tone 3
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 107, 89, 75, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 107, 89, 75, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 7){
 					//black tone
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 61, 60, 59, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 61, 60, 59, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 8){
 					//dark red tone
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 166, 17, 17, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 166, 17, 17, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 9){
 					//light red tone
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 242, 97, 97, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 242, 97, 97, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 10){
 					//orange tone
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 255, 158, 120, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 255, 158, 120, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 11){
 					//light pink tone
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 255, 217, 217, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 255, 217, 217, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 12){
 					//dark blue tone
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 64, 180, 219, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 64, 180, 219, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 13){
 					//light blue tone
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 165, 217, 250, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 165, 217, 250, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 14){
 					//light purple tone
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 218, 190, 235, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 218, 190, 235, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}else if(selectedHairColor == 15){
 					//light green tone
-					let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 195, 247, 198, 0);
-					hairSymbol.filters = [colorTransform];
-					hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					for (let i = 1; i <= 5; i++) {
+						let hairSymbol = root["Hair" + i + "_0"];
+						let colorTransform = new createjs.ColorFilter(intensity, intensity, intensity, 1, 195, 247, 198, 0);
+						hairSymbol.filters = [colorTransform];
+						hairSymbol.cache(0, 0, hairSymbol.getBounds().width, hairSymbol.getBounds().height);
+					}
 				}
 		    });
 		}
@@ -1642,19 +1694,19 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DressUpGame_atlas_1.png?1703601195400", id:"DressUpGame_atlas_1"},
-		{src:"images/DressUpGame_atlas_2.png?1703601195400", id:"DressUpGame_atlas_2"},
-		{src:"images/DressUpGame_atlas_3.png?1703601195400", id:"DressUpGame_atlas_3"},
-		{src:"images/DressUpGame_atlas_4.png?1703601195400", id:"DressUpGame_atlas_4"},
-		{src:"images/DressUpGame_atlas_5.png?1703601195400", id:"DressUpGame_atlas_5"},
-		{src:"images/DressUpGame_atlas_6.png?1703601195400", id:"DressUpGame_atlas_6"},
-		{src:"images/DressUpGame_atlas_7.png?1703601195400", id:"DressUpGame_atlas_7"},
-		{src:"images/DressUpGame_atlas_8.png?1703601195401", id:"DressUpGame_atlas_8"},
-		{src:"images/DressUpGame_atlas_9.png?1703601195401", id:"DressUpGame_atlas_9"},
-		{src:"images/DressUpGame_atlas_10.png?1703601195401", id:"DressUpGame_atlas_10"},
-		{src:"images/DressUpGame_atlas_11.png?1703601195401", id:"DressUpGame_atlas_11"},
-		{src:"images/DressUpGame_atlas_12.png?1703601195401", id:"DressUpGame_atlas_12"},
-		{src:"images/DressUpGame_atlas_13.png?1703601195401", id:"DressUpGame_atlas_13"}
+		{src:"images/DressUpGame_atlas_1.png?1703602531238", id:"DressUpGame_atlas_1"},
+		{src:"images/DressUpGame_atlas_2.png?1703602531238", id:"DressUpGame_atlas_2"},
+		{src:"images/DressUpGame_atlas_3.png?1703602531238", id:"DressUpGame_atlas_3"},
+		{src:"images/DressUpGame_atlas_4.png?1703602531239", id:"DressUpGame_atlas_4"},
+		{src:"images/DressUpGame_atlas_5.png?1703602531239", id:"DressUpGame_atlas_5"},
+		{src:"images/DressUpGame_atlas_6.png?1703602531239", id:"DressUpGame_atlas_6"},
+		{src:"images/DressUpGame_atlas_7.png?1703602531239", id:"DressUpGame_atlas_7"},
+		{src:"images/DressUpGame_atlas_8.png?1703602531239", id:"DressUpGame_atlas_8"},
+		{src:"images/DressUpGame_atlas_9.png?1703602531239", id:"DressUpGame_atlas_9"},
+		{src:"images/DressUpGame_atlas_10.png?1703602531239", id:"DressUpGame_atlas_10"},
+		{src:"images/DressUpGame_atlas_11.png?1703602531239", id:"DressUpGame_atlas_11"},
+		{src:"images/DressUpGame_atlas_12.png?1703602531239", id:"DressUpGame_atlas_12"},
+		{src:"images/DressUpGame_atlas_13.png?1703602531239", id:"DressUpGame_atlas_13"}
 	],
 	preloads: []
 };
