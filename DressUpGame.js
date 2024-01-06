@@ -19,8 +19,8 @@ lib.ssMetadata = [
 		{name:"DressUpGame_atlas_14", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_15", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_16", frames: [[0,0,948,1920],[950,0,948,1920]]},
-		{name:"DressUpGame_atlas_17", frames: [[0,0,1983,1186]]},
-		{name:"DressUpGame_atlas_18", frames: [[0,0,948,1920],[950,0,948,1920]]}
+		{name:"DressUpGame_atlas_17", frames: [[0,0,948,1920],[950,0,948,1920]]},
+		{name:"DressUpGame_atlas_18", frames: [[0,0,1983,1411]]}
 ];
 
 
@@ -80,7 +80,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["DressUpGame_atlas_17"]);
+	this.initialize(ss["DressUpGame_atlas_18"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -108,14 +108,14 @@ lib.ssMetadata = [
 
 
 (lib.base1 = function() {
-	this.initialize(ss["DressUpGame_atlas_18"]);
+	this.initialize(ss["DressUpGame_atlas_17"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.base2 = function() {
-	this.initialize(ss["DressUpGame_atlas_18"]);
+	this.initialize(ss["DressUpGame_atlas_17"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -742,6 +742,62 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,1280,800);
 
 
+(lib.MusicOn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// MusicOn
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(5,1,1).p("ACQAAQAAA8gqAqQgqAqg8AAQg6AAgrgqQgqgqAAg8QAAg7AqgqQArgqA6AAQA8AAAqAqQAqAqAAA7g");
+	this.shape.setTransform(16.9,16.9);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("rgba(255,255,255,0.961)").s().p("AhlBmQgqgrAAg7QAAg7AqgqQArgqA6AAQA8AAAqAqQAqAqAAA7QAAA7gqArQgqAqg8AAQg6AAgrgqg");
+	this.shape_1.setTransform(16.9,16.9);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,33.8,33.8);
+
+
+(lib.MusicOff = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// MusicOff
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#FFFFFF").ss(5,1,1).p("ACQAAQAAA8gqAqQgqAqg8AAQg6AAgrgqQgqgqAAg8QAAg7AqgqQArgqA6AAQA8AAAqAqQAqAqAAA7g");
+	this.shape.setTransform(16.9,16.9);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("rgba(255,255,255,0.961)").s().p("AhlBmQgqgrAAg7QAAg7AqgqQArgqA6AAQA8AAAqAqQAqAqAAA7QAAA7gqArQgqAqg8AAQg6AAgrgqg");
+	this.shape_1.setTransform(16.9,16.9);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,33.8,33.8);
+
+
 (lib.HairRight = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -1123,7 +1179,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {Hair5:0,Hair4:0,Hair3:0,Hair2:0,Hair1:0,Top5:0,Top4:0,Top3:0,Top2:0,Top1:0,Bottom5:0,"Bottom4":0,Bottom3:0,Bottom2:0,Bottom1:0,Skin3:0,Skin2:0,Skin1:0,BottomRight:0,BottomLeft:0,TopRight:0,TopLeft:0,ScenaryRight:0,ScenaryLeft:0,HairRight:0,HairLeft:0,DollRight:0,DollLeft:0,Scenary5:0,Scenary4:0,Scenary3:0,Scenary2:0,Scenary1:0};
+	props.labels = {Hair5:0,Hair4:0,Hair3:0,Hair2:0,Hair1:0,Top5:0,Top4:0,Top3:0,Top2:0,Top1:0,Bottom5:0,"Bottom4":0,Bottom3:0,Bottom2:0,Bottom1:0,Skin3:0,Skin2:0,Skin1:0,BottomRight:0,BottomLeft:0,TopRight:0,TopLeft:0,ScenaryRight:0,ScenaryLeft:0,HairRight:0,HairLeft:0,DollRight:0,DollLeft:0,MusicOff:0,MusicOn:0,Scenary5:0,Scenary4:0,Scenary3:0,Scenary2:0,Scenary1:0};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -1141,6 +1197,9 @@ if (reversed == null) { reversed = false; }
 		let root = this;
 		
 		// Set initial visibility
+		root.MusicOff.visible = true;
+		root.MusicOn.visible = false;
+		
 		root.Skin1.visible = true;
 		root.Skin2.visible = false;
 		root.Skin3.visible = false;
@@ -1229,6 +1288,29 @@ if (reversed == null) { reversed = false; }
 		root.HairRight.addEventListener("click", function () {
 		    root.currentHairIndex = changeVisibility([root.Hair1, root.Hair2, root.Hair3, root.Hair4, root.Hair5], root.currentHairIndex || 0, "right");
 		});
+		
+		// Create an Audio object for Catwalk.wav
+		let catwalkAudio = new Audio("Music/Catwalk.mp3");
+		catwalkAudio.loop = true;
+		
+		// Function to toggle music visibility and play/pause
+		function toggleMusic() {
+		    if (root.MusicOff.visible) {
+		        // If MusicOff is visible, switch to MusicOn
+		        root.MusicOff.visible = false;
+		        root.MusicOn.visible = true;
+		        catwalkAudio.play();
+		    } else {
+		        // If MusicOn is visible, switch to MusicOff
+		        root.MusicOn.visible = false;
+		        root.MusicOff.visible = true;
+		        catwalkAudio.pause();
+		    }
+		}
+		
+		// Event listeners for music buttons
+		root.MusicOff.addEventListener("click", toggleMusic);
+		root.MusicOn.addEventListener("click", toggleMusic);
 	}
 
 	// actions tween:
@@ -1449,6 +1531,22 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.DollLeft).wait(1));
 
+	// MusicOff
+	this.MusicOff = new lib.MusicOff();
+	this.MusicOff.name = "MusicOff";
+	this.MusicOff.setTransform(149.5,62.45,1,1,0,0,0,16.9,16.9);
+	new cjs.ButtonHelper(this.MusicOff, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.MusicOff).wait(1));
+
+	// MusicOn
+	this.MusicOn = new lib.MusicOn();
+	this.MusicOn.name = "MusicOn";
+	this.MusicOn.setTransform(204.55,62.45,1,1,0,0,0,16.9,16.9);
+	new cjs.ButtonHelper(this.MusicOn, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.MusicOn).wait(1));
+
 	// UI
 	this.instance_2 = new lib.CachedBmp_8();
 	this.instance_2.setTransform(750.8,513.75,0.5,0.5);
@@ -1466,7 +1564,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_6.setTransform(89.95,229.5,0.5,0.5);
 
 	this.instance_7 = new lib.CachedBmp_3();
-	this.instance_7.setTransform(17.5,146.7,0.5,0.5);
+	this.instance_7.setTransform(17.5,34.1,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2}]}).wait(1));
 
@@ -1518,24 +1616,24 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DressUpGame_atlas_1.png?1704563495123", id:"DressUpGame_atlas_1"},
-		{src:"images/DressUpGame_atlas_2.png?1704563495123", id:"DressUpGame_atlas_2"},
-		{src:"images/DressUpGame_atlas_3.png?1704563495124", id:"DressUpGame_atlas_3"},
-		{src:"images/DressUpGame_atlas_4.png?1704563495124", id:"DressUpGame_atlas_4"},
-		{src:"images/DressUpGame_atlas_5.png?1704563495124", id:"DressUpGame_atlas_5"},
-		{src:"images/DressUpGame_atlas_6.png?1704563495124", id:"DressUpGame_atlas_6"},
-		{src:"images/DressUpGame_atlas_7.png?1704563495124", id:"DressUpGame_atlas_7"},
-		{src:"images/DressUpGame_atlas_8.png?1704563495124", id:"DressUpGame_atlas_8"},
-		{src:"images/DressUpGame_atlas_9.png?1704563495124", id:"DressUpGame_atlas_9"},
-		{src:"images/DressUpGame_atlas_10.png?1704563495124", id:"DressUpGame_atlas_10"},
-		{src:"images/DressUpGame_atlas_11.png?1704563495124", id:"DressUpGame_atlas_11"},
-		{src:"images/DressUpGame_atlas_12.png?1704563495124", id:"DressUpGame_atlas_12"},
-		{src:"images/DressUpGame_atlas_13.png?1704563495124", id:"DressUpGame_atlas_13"},
-		{src:"images/DressUpGame_atlas_14.png?1704563495124", id:"DressUpGame_atlas_14"},
-		{src:"images/DressUpGame_atlas_15.png?1704563495124", id:"DressUpGame_atlas_15"},
-		{src:"images/DressUpGame_atlas_16.png?1704563495124", id:"DressUpGame_atlas_16"},
-		{src:"images/DressUpGame_atlas_17.png?1704563495124", id:"DressUpGame_atlas_17"},
-		{src:"images/DressUpGame_atlas_18.png?1704563495124", id:"DressUpGame_atlas_18"}
+		{src:"images/DressUpGame_atlas_1.png?1704565731490", id:"DressUpGame_atlas_1"},
+		{src:"images/DressUpGame_atlas_2.png?1704565731491", id:"DressUpGame_atlas_2"},
+		{src:"images/DressUpGame_atlas_3.png?1704565731491", id:"DressUpGame_atlas_3"},
+		{src:"images/DressUpGame_atlas_4.png?1704565731491", id:"DressUpGame_atlas_4"},
+		{src:"images/DressUpGame_atlas_5.png?1704565731491", id:"DressUpGame_atlas_5"},
+		{src:"images/DressUpGame_atlas_6.png?1704565731491", id:"DressUpGame_atlas_6"},
+		{src:"images/DressUpGame_atlas_7.png?1704565731491", id:"DressUpGame_atlas_7"},
+		{src:"images/DressUpGame_atlas_8.png?1704565731491", id:"DressUpGame_atlas_8"},
+		{src:"images/DressUpGame_atlas_9.png?1704565731491", id:"DressUpGame_atlas_9"},
+		{src:"images/DressUpGame_atlas_10.png?1704565731491", id:"DressUpGame_atlas_10"},
+		{src:"images/DressUpGame_atlas_11.png?1704565731491", id:"DressUpGame_atlas_11"},
+		{src:"images/DressUpGame_atlas_12.png?1704565731491", id:"DressUpGame_atlas_12"},
+		{src:"images/DressUpGame_atlas_13.png?1704565731491", id:"DressUpGame_atlas_13"},
+		{src:"images/DressUpGame_atlas_14.png?1704565731491", id:"DressUpGame_atlas_14"},
+		{src:"images/DressUpGame_atlas_15.png?1704565731491", id:"DressUpGame_atlas_15"},
+		{src:"images/DressUpGame_atlas_16.png?1704565731491", id:"DressUpGame_atlas_16"},
+		{src:"images/DressUpGame_atlas_17.png?1704565731491", id:"DressUpGame_atlas_17"},
+		{src:"images/DressUpGame_atlas_18.png?1704565731491", id:"DressUpGame_atlas_18"}
 	],
 	preloads: []
 };
