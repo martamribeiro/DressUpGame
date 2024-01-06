@@ -6,8 +6,8 @@ lib.ssMetadata = [
 		{name:"DressUpGame_atlas_1", frames: [[1282,149,364,106],[1648,149,364,106],[1282,257,364,106],[1648,257,364,106],[1282,365,364,106],[1648,365,309,106],[1282,0,499,147],[0,0,1280,720]]},
 		{name:"DressUpGame_atlas_2", frames: [[0,0,1280,800],[0,802,1280,800]]},
 		{name:"DressUpGame_atlas_3", frames: [[0,0,1280,800],[0,802,1280,800]]},
-		{name:"DressUpGame_atlas_4", frames: [[0,0,948,1920]]},
-		{name:"DressUpGame_atlas_5", frames: [[0,0,948,1920],[950,0,948,1920]]},
+		{name:"DressUpGame_atlas_4", frames: [[0,0,1964,1411]]},
+		{name:"DressUpGame_atlas_5", frames: [[0,0,948,1920]]},
 		{name:"DressUpGame_atlas_6", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_7", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_8", frames: [[0,0,948,1920],[950,0,948,1920]]},
@@ -20,7 +20,7 @@ lib.ssMetadata = [
 		{name:"DressUpGame_atlas_15", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_16", frames: [[0,0,948,1920],[950,0,948,1920]]},
 		{name:"DressUpGame_atlas_17", frames: [[0,0,948,1920],[950,0,948,1920]]},
-		{name:"DressUpGame_atlas_18", frames: [[0,0,1983,1411]]}
+		{name:"DressUpGame_atlas_18", frames: [[0,0,948,1920],[950,0,948,1920]]}
 ];
 
 
@@ -80,7 +80,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["DressUpGame_atlas_18"]);
+	this.initialize(ss["DressUpGame_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -108,98 +108,98 @@ lib.ssMetadata = [
 
 
 (lib.base1 = function() {
-	this.initialize(ss["DressUpGame_atlas_17"]);
+	this.initialize(ss["DressUpGame_atlas_18"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.base2 = function() {
-	this.initialize(ss["DressUpGame_atlas_17"]);
+	this.initialize(ss["DressUpGame_atlas_18"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.base5 = function() {
-	this.initialize(ss["DressUpGame_atlas_16"]);
+	this.initialize(ss["DressUpGame_atlas_17"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bottom1_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_16"]);
+	this.initialize(ss["DressUpGame_atlas_17"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bottom1_5 = function() {
-	this.initialize(ss["DressUpGame_atlas_15"]);
+	this.initialize(ss["DressUpGame_atlas_16"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bottom2_3 = function() {
-	this.initialize(ss["DressUpGame_atlas_15"]);
+	this.initialize(ss["DressUpGame_atlas_16"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bottom2_6 = function() {
-	this.initialize(ss["DressUpGame_atlas_14"]);
+	this.initialize(ss["DressUpGame_atlas_15"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bottom3_5 = function() {
-	this.initialize(ss["DressUpGame_atlas_14"]);
+	this.initialize(ss["DressUpGame_atlas_15"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyebrows1_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_13"]);
+	this.initialize(ss["DressUpGame_atlas_14"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyebrows2_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_13"]);
+	this.initialize(ss["DressUpGame_atlas_14"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyebrows5_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_12"]);
+	this.initialize(ss["DressUpGame_atlas_13"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyes1_3 = function() {
-	this.initialize(ss["DressUpGame_atlas_12"]);
+	this.initialize(ss["DressUpGame_atlas_13"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyes2_6 = function() {
-	this.initialize(ss["DressUpGame_atlas_11"]);
+	this.initialize(ss["DressUpGame_atlas_12"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.eyes3_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_11"]);
+	this.initialize(ss["DressUpGame_atlas_12"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -220,35 +220,35 @@ lib.ssMetadata = [
 
 
 (lib.hair1_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_10"]);
+	this.initialize(ss["DressUpGame_atlas_11"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hair2_10 = function() {
-	this.initialize(ss["DressUpGame_atlas_10"]);
+	this.initialize(ss["DressUpGame_atlas_11"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hair3_7 = function() {
-	this.initialize(ss["DressUpGame_atlas_9"]);
+	this.initialize(ss["DressUpGame_atlas_10"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hair4_2 = function() {
-	this.initialize(ss["DressUpGame_atlas_9"]);
+	this.initialize(ss["DressUpGame_atlas_10"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.hair5_9 = function() {
-	this.initialize(ss["DressUpGame_atlas_8"]);
+	this.initialize(ss["DressUpGame_atlas_9"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -269,59 +269,97 @@ lib.ssMetadata = [
 
 
 (lib.mouth1_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_8"]);
+	this.initialize(ss["DressUpGame_atlas_9"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mouth2_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_7"]);
+	this.initialize(ss["DressUpGame_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mouth5_1 = function() {
-	this.initialize(ss["DressUpGame_atlas_7"]);
+	this.initialize(ss["DressUpGame_atlas_8"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.top1_5 = function() {
-	this.initialize(ss["DressUpGame_atlas_6"]);
+	this.initialize(ss["DressUpGame_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.top1_6 = function() {
-	this.initialize(ss["DressUpGame_atlas_6"]);
+	this.initialize(ss["DressUpGame_atlas_7"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.top2_4 = function() {
-	this.initialize(ss["DressUpGame_atlas_5"]);
+	this.initialize(ss["DressUpGame_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.top4_2 = function() {
-	this.initialize(ss["DressUpGame_atlas_5"]);
+	this.initialize(ss["DressUpGame_atlas_6"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.top5_2 = function() {
-	this.initialize(ss["DressUpGame_atlas_4"]);
+	this.initialize(ss["DressUpGame_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
+
+
+(lib.UI = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// UI
+	this.instance = new lib.CachedBmp_8();
+	this.instance.setTransform(734.65,479.65,0.5,0.5);
+
+	this.instance_1 = new lib.CachedBmp_7();
+	this.instance_1.setTransform(734.65,272.05,0.5,0.5);
+
+	this.instance_2 = new lib.CachedBmp_6();
+	this.instance_2.setTransform(76.65,377.7,0.5,0.5);
+
+	this.instance_3 = new lib.CachedBmp_5();
+	this.instance_3.setTransform(74.65,571.45,0.5,0.5);
+
+	this.instance_4 = new lib.CachedBmp_4();
+	this.instance_4.setTransform(76.65,195.4,0.5,0.5);
+
+	this.instance_5 = new lib.CachedBmp_3();
+	this.instance_5.setTransform(3.55,0,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(3.6,0,982,705.5);
 
 
 (lib.TopRight = function(mode,startPosition,loop,reversed) {
@@ -740,6 +778,32 @@ if (reversed == null) { reversed = false; }
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,1280,800);
+
+
+(lib.SaveButton = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// SaveButton
+	this.instance = new lib.CachedBmp_2();
+	this.instance.setTransform(43.55,12.3,0.5,0.5);
+
+	this.instance_1 = new lib.CachedBmp_1();
+	this.instance_1.setTransform(0,0,0.5,0.5);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,249.5,73.5);
 
 
 (lib.MusicOn = function(mode,startPosition,loop,reversed) {
@@ -1179,7 +1243,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {Hair5:0,Hair4:0,Hair3:0,Hair2:0,Hair1:0,Top5:0,Top4:0,Top3:0,Top2:0,Top1:0,Bottom5:0,"Bottom4":0,Bottom3:0,Bottom2:0,Bottom1:0,Skin3:0,Skin2:0,Skin1:0,BottomRight:0,BottomLeft:0,TopRight:0,TopLeft:0,ScenaryRight:0,ScenaryLeft:0,HairRight:0,HairLeft:0,DollRight:0,DollLeft:0,MusicOff:0,MusicOn:0,Scenary5:0,Scenary4:0,Scenary3:0,Scenary2:0,Scenary1:0};
+	props.labels = {Hair5:0,Hair4:0,Hair3:0,Hair2:0,Hair1:0,Top5:0,Top4:0,Top3:0,Top2:0,Top1:0,Bottom5:0,"Bottom4":0,Bottom3:0,Bottom2:0,Bottom1:0,Skin3:0,Skin2:0,Skin1:0,SaveButton:0,BottomRight:0,BottomLeft:0,TopRight:0,TopLeft:0,ScenaryRight:0,ScenaryLeft:0,HairRight:0,HairLeft:0,DollRight:0,DollLeft:0,MusicOff:0,MusicOn:0,UI:0,Scenary5:0,Scenary4:0,Scenary3:0,Scenary2:0,Scenary1:0};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -1311,6 +1375,54 @@ if (reversed == null) { reversed = false; }
 		// Event listeners for music buttons
 		root.MusicOff.addEventListener("click", toggleMusic);
 		root.MusicOn.addEventListener("click", toggleMusic);
+		
+		function saveAsImage() {
+		    // Set alpha (transparency) to 0 for elements you don't want in the image
+		    root.UI.alpha = 0;
+		    root.DollLeft.alpha = root.DollRight.alpha = root.HairLeft.alpha = root.HairRight.alpha =
+		        root.ScenaryLeft.alpha = root.ScenaryRight.alpha = root.TopLeft.alpha = root.TopRight.alpha =
+		        root.BottomLeft.alpha = root.BottomRight.alpha = root.SaveButton.alpha = 0;
+		
+		    let tmp = 0;
+		    if (root.MusicOff.visible) {
+		        tmp = 1;
+		        root.MusicOff.alpha = 0;
+		    } else {
+		        tmp = 2;
+		        root.MusicOn.alpha = 0;
+		    }
+		
+		    // Introduce a delay to ensure elements are hidden before capturing the canvas
+		    setTimeout(function () {
+		        // Create a data URL from the entire stage
+		        let dataURL = stage.toDataURL("image/png");
+		
+		        // Reset alpha for elements
+		        root.UI.alpha = 1;
+		        root.DollLeft.alpha = root.DollRight.alpha = root.HairLeft.alpha = root.HairRight.alpha =
+		            root.ScenaryLeft.alpha = root.ScenaryRight.alpha = root.TopLeft.alpha = root.TopRight.alpha =
+		            root.BottomLeft.alpha = root.BottomRight.alpha = root.SaveButton.alpha = 1;
+		
+		        if (tmp === 1) {
+		            root.MusicOff.alpha = 1;
+		        } else {
+		            root.MusicOn.alpha = 1;
+		        }
+		
+		        // Create a temporary link element
+		        let link = document.createElement("a");
+		        link.href = dataURL;
+		        link.download = "mydoll.png";
+		
+		        // Trigger a click on the link to start the download
+		        document.body.appendChild(link);
+		        link.click();
+		        document.body.removeChild(link);
+		    }, 100); // Adjust the delay as needed
+		}
+		
+		// Event listener for the SaveButton
+		root.SaveButton.addEventListener("click", saveAsImage);
 	}
 
 	// actions tween:
@@ -1443,13 +1555,12 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Skin1).wait(1));
 
 	// SaveButton
-	this.instance = new lib.CachedBmp_2();
-	this.instance.setTransform(762.8,40.15,0.5,0.5);
+	this.SaveButton = new lib.SaveButton();
+	this.SaveButton.name = "SaveButton";
+	this.SaveButton.setTransform(843.95,64.75,1,1,0,0,0,124.7,36.9);
+	new cjs.ButtonHelper(this.SaveButton, 0, 1, 1);
 
-	this.instance_1 = new lib.CachedBmp_1();
-	this.instance_1.setTransform(719.25,27.85,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.SaveButton).wait(1));
 
 	// BottomRight
 	this.BottomRight = new lib.BottomRight();
@@ -1548,25 +1659,11 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.MusicOn).wait(1));
 
 	// UI
-	this.instance_2 = new lib.CachedBmp_8();
-	this.instance_2.setTransform(750.8,513.75,0.5,0.5);
+	this.UI = new lib.UI("synched",0);
+	this.UI.name = "UI";
+	this.UI.setTransform(513.3,386.8,1,1,0,0,0,495.8,352.7);
 
-	this.instance_3 = new lib.CachedBmp_7();
-	this.instance_3.setTransform(750.8,306.15,0.5,0.5);
-
-	this.instance_4 = new lib.CachedBmp_6();
-	this.instance_4.setTransform(89.95,411.8,0.5,0.5);
-
-	this.instance_5 = new lib.CachedBmp_5();
-	this.instance_5.setTransform(93.55,605.55,0.5,0.5);
-
-	this.instance_6 = new lib.CachedBmp_4();
-	this.instance_6.setTransform(89.95,229.5,0.5,0.5);
-
-	this.instance_7 = new lib.CachedBmp_3();
-	this.instance_7.setTransform(17.5,34.1,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.UI).wait(1));
 
 	// Scenary5
 	this.Scenary5 = new lib.Scenary5("synched",0);
@@ -1616,24 +1713,24 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/DressUpGame_atlas_1.png?1704565731490", id:"DressUpGame_atlas_1"},
-		{src:"images/DressUpGame_atlas_2.png?1704565731491", id:"DressUpGame_atlas_2"},
-		{src:"images/DressUpGame_atlas_3.png?1704565731491", id:"DressUpGame_atlas_3"},
-		{src:"images/DressUpGame_atlas_4.png?1704565731491", id:"DressUpGame_atlas_4"},
-		{src:"images/DressUpGame_atlas_5.png?1704565731491", id:"DressUpGame_atlas_5"},
-		{src:"images/DressUpGame_atlas_6.png?1704565731491", id:"DressUpGame_atlas_6"},
-		{src:"images/DressUpGame_atlas_7.png?1704565731491", id:"DressUpGame_atlas_7"},
-		{src:"images/DressUpGame_atlas_8.png?1704565731491", id:"DressUpGame_atlas_8"},
-		{src:"images/DressUpGame_atlas_9.png?1704565731491", id:"DressUpGame_atlas_9"},
-		{src:"images/DressUpGame_atlas_10.png?1704565731491", id:"DressUpGame_atlas_10"},
-		{src:"images/DressUpGame_atlas_11.png?1704565731491", id:"DressUpGame_atlas_11"},
-		{src:"images/DressUpGame_atlas_12.png?1704565731491", id:"DressUpGame_atlas_12"},
-		{src:"images/DressUpGame_atlas_13.png?1704565731491", id:"DressUpGame_atlas_13"},
-		{src:"images/DressUpGame_atlas_14.png?1704565731491", id:"DressUpGame_atlas_14"},
-		{src:"images/DressUpGame_atlas_15.png?1704565731491", id:"DressUpGame_atlas_15"},
-		{src:"images/DressUpGame_atlas_16.png?1704565731491", id:"DressUpGame_atlas_16"},
-		{src:"images/DressUpGame_atlas_17.png?1704565731491", id:"DressUpGame_atlas_17"},
-		{src:"images/DressUpGame_atlas_18.png?1704565731491", id:"DressUpGame_atlas_18"}
+		{src:"images/DressUpGame_atlas_1.png?1704569292482", id:"DressUpGame_atlas_1"},
+		{src:"images/DressUpGame_atlas_2.png?1704569292482", id:"DressUpGame_atlas_2"},
+		{src:"images/DressUpGame_atlas_3.png?1704569292482", id:"DressUpGame_atlas_3"},
+		{src:"images/DressUpGame_atlas_4.png?1704569292482", id:"DressUpGame_atlas_4"},
+		{src:"images/DressUpGame_atlas_5.png?1704569292483", id:"DressUpGame_atlas_5"},
+		{src:"images/DressUpGame_atlas_6.png?1704569292483", id:"DressUpGame_atlas_6"},
+		{src:"images/DressUpGame_atlas_7.png?1704569292483", id:"DressUpGame_atlas_7"},
+		{src:"images/DressUpGame_atlas_8.png?1704569292483", id:"DressUpGame_atlas_8"},
+		{src:"images/DressUpGame_atlas_9.png?1704569292483", id:"DressUpGame_atlas_9"},
+		{src:"images/DressUpGame_atlas_10.png?1704569292483", id:"DressUpGame_atlas_10"},
+		{src:"images/DressUpGame_atlas_11.png?1704569292483", id:"DressUpGame_atlas_11"},
+		{src:"images/DressUpGame_atlas_12.png?1704569292483", id:"DressUpGame_atlas_12"},
+		{src:"images/DressUpGame_atlas_13.png?1704569292483", id:"DressUpGame_atlas_13"},
+		{src:"images/DressUpGame_atlas_14.png?1704569292483", id:"DressUpGame_atlas_14"},
+		{src:"images/DressUpGame_atlas_15.png?1704569292483", id:"DressUpGame_atlas_15"},
+		{src:"images/DressUpGame_atlas_16.png?1704569292483", id:"DressUpGame_atlas_16"},
+		{src:"images/DressUpGame_atlas_17.png?1704569292483", id:"DressUpGame_atlas_17"},
+		{src:"images/DressUpGame_atlas_18.png?1704569292484", id:"DressUpGame_atlas_18"}
 	],
 	preloads: []
 };
